@@ -9,6 +9,7 @@ public class LoginApp {
 	
 	String username = rb.getString("username");
 	String password  = rb.getString("password");	
+	String dob  = rb.getString("dob");
 	
 	if(uname.equals(username)&& pwd.equals(password))
 		return 1;
